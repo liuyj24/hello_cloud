@@ -1,0 +1,19 @@
+云你好 api
+---
+parameters:
+  - name: name
+    in: query
+    type: string
+responses:
+  200:
+    schema:
+      examples: "hello 阿菌"
+      type: string
+  400:
+    schema:
+      examples: "您的余额不足以使用打招呼服务"
+      type: string
+  500:
+    schema:
+      examples: "服务器开小差了，请稍后再试"
+      type: string
